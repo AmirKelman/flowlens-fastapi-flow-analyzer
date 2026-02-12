@@ -2,7 +2,6 @@
 Static request-flow analyzer for FastAPI codebases with async processing and deterministic call graph extraction.
 ## Architecture (MVP)
 
-```mermaid
 flowchart LR
     CLI[CLI Interface]
     API[FastAPI Service]
