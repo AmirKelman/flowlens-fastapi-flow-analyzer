@@ -1,5 +1,7 @@
-# flowlens-fastapi-flow-analyzer
+# flowlens
 Static request-flow analyzer for FastAPI codebases with async processing and deterministic call graph extraction.
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/8fcf432f-0612-49df-9932-e0e258f34ce4" />
+
 ## Architecture (MVP)
 
 flowchart LR
