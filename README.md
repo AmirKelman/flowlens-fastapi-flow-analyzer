@@ -1,6 +1,7 @@
 # flowlens
 Static request-flow analyzer for FastAPI codebases with async processing and deterministic call graph extraction.
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/8fcf432f-0612-49df-9932-e0e258f34ce4" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6f78c6c1-2f41-4790-9257-2cdb49b261d7" />
+
 
 ## Architecture (MVP)
 
@@ -34,3 +35,5 @@ sequenceDiagram
     Worker->>DB: save endpoints + graph
     CLI->>API: GET /status
     CLI->>API: GET /endpoints
+
+    (Work in progress)
